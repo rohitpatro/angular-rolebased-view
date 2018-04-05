@@ -3,6 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {
+  NgxPermissionsConfigurationStore,
+  NgxPermissionsModule,
+  NgxPermissionsStore,
+  NgxRolesStore
+} from "ngx-permissions";
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
+import { DataService } from "./data.service";
 
 
 @NgModule({
@@ -10,9 +19,17 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    FormsModule,
+    NgxPermissionsModule.forChild({
+      permissionsIsolate: true,
+      configurationIsolate: true,
+      rolesIsolate: true
+    })
   ],
-  providers: [],
+  providers: [NgxPermissionsStore, NgxPermissionsConfigurationStore, NgxRolesStore, DataService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

@@ -1,0 +1,8 @@
+{
+  "username": "testusername",
+  "password": "testpassword",
+  "permissions": [
+    "ADMIN",
+    "EDITOR"
+  ]
+}

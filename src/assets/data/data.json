@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "customer_id": 1616,
+    "time_id": "27/09/2017",
+    "promo_id": 442,
+    "region": "VEN",
+    "price": "89664",
+    "quantity": 7
+  },
+  {
+    "id": 2,
+    "customer_id": 1418,
+    "time_id": "07/05/2018",
+    "promo_id": 443,
+    "region": "ON",
+    "price": "2358",
+    "quantity": 2
+  },
+  {
+    "id": 3,
+    "customer_id": 1380,
+    "time_id": "14/04/2017",
+    "promo_id": 488,
+    "region": "U",
+    "price": "24343",
+    "quantity": 5
+  },
+  {
+    "id": 4,
+    "customer_id": 1161,
+    "time_id": "02/02/2019",
+    "promo_id": 414,
+    "region": "KP",
+    "price": "63063",
+    "quantity": 9
+  },
+  {
+    "id": 5,
+    "customer_id": 1735,
+    "time_id": "23/07/2017",
+    "promo_id": 442,
+    "region": "Connacht",
+    "price": "6984",
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "customer_id": 1810,
+    "time_id": "07/09/2018",
+    "promo_id": 485,
+    "region": "South Island",
+    "price": "32962",
+    "quantity": 10
+  },
+  {
+    "id": 7,
+    "customer_id": 1164,
+    "time_id": "13/12/2018",
+    "promo_id": 459,
+    "region": "British Columbia",
+    "price": "42479",
+    "quantity": 2
+  },
+  {
+    "id": 8,
+    "customer_id": 1338,
+    "time_id": "16/01/2018",
+    "promo_id": 455,
+    "region": "F",
+    "price": "36415",
+    "quantity": 3
+  },
+  {
+    "id": 9,
+    "customer_id": 1165,
+    "time_id": "26/05/2017",
+    "promo_id": 495,
+    "region": "VIC",
+    "price": "31520",
+    "quantity": 2
+  },
+  {
+    "id": 10,
+    "customer_id": 1767,
+    "time_id": "02/05/2017",
+    "promo_id": 404,
+    "region": "Gaz",
+    "price": "49646",
+    "quantity": 1
+  }
+]
